@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage>{
             backgroundColor: Colors.primaries[
             Random().nextInt(Colors.primaries.length)
               ].shade200,
+
               foregroundColor: Colors.black,
               child:Text(messages[index]["title"]![0]),
               ),
@@ -62,6 +63,8 @@ class _MyHomePageState extends State<MyHomePage>{
               ],)
           );
   }),
+
+  // drawer
   drawer:Drawer(
     child:ListView(
       children: [
